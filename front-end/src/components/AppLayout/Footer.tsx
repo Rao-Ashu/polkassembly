@@ -25,7 +25,7 @@ const Footer = ({ className } : { className?:string }) => {
 
 	return (
 		<footer aria-label="Site Footer" className={`${className} bg-white`}>
-			<div className="mx-auto max-w-screen-xl px-4 pt-12 pb-6 sm:px-6 lg:px-8">
+			<div className="mx-auto max-w-screen-xl px-4 pt-12 pb-6 sm:px-6 lg:pr-8 lg:pl-24">
 				<div className="flex flex-col md:flex-row">
 					{/* Logo and Network Link */}
 					<div>
